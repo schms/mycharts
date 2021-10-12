@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-12T13:13:32.315144868Z"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.x.x
+    description: My awesome app
+    digest: 7b7c9c1f1d1ccb77a4e6851f8641b8ac5ad92fdea918c9bf35dac9cfc39b7dc1
+    maintainers:
+    - email: schms@web.de
+      name: Stefan Schmid
+    name: mychart
+    type: application
+    urls:
+    - https://schms.github.io/mycharts/mychart-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-10-12T13:13:32.310248523Z"
